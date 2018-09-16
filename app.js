@@ -40,7 +40,7 @@ function draw() {
     push();
     textSize(16);
     fill(255);
-    text(`Angle: floor(rotateAngle + 90)`, 25, 25);
+    text(`Angle: ${floor(rotateAngle + 90)}`, 25, 25);
     pop();
 
     if (cam.x < 50 || cam.x > 750) {
